@@ -1,0 +1,31 @@
+.signUpPageHolder{
+    background: var(--backgroundColor);
+    min-height: 100vh;
+}
+
+.signUpHolder{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: var(--cardBg);
+        border-radius: 32px;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 20px;
+        width: 400px;
+}
+
+.signUpText{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.nameInputBlock{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

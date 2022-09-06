@@ -1,0 +1,50 @@
+.LogInPageHolder{
+    /* background-image: url("../../../Assets/Common/backgroundMainTwo.jpeg"); */
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.LogInHolder{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        background: var(--cardBg);
+        border-radius: 32px;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 20px;
+        width: 300px;
+        margin:0px 0px;
+        -webkit-box-shadow: 3px 0px 33px -14px rgba(196,199,255,1);
+        -moz-box-shadow: 3px 0px 33px -14px rgba(196,199,255,1);
+        box-shadow: 3px 0px 33px -14px rgba(196,199,255,1);
+}
+
+.LogInText{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.nameInputBlock{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.logoHolder{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .LogInHolder{
+        width: 70%;
+        margin:0px 5%;
+    }
+  }
